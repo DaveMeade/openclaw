@@ -1,3 +1,5 @@
+name: openclaw-local
+
 services:
   openclaw-gateway:
     build:
@@ -37,7 +39,7 @@ services:
       ]
 
   openclaw-cli:
-    profiles: ["manual"]
+    #profiles: ["manual"]
     image: openclaw:local
 
     # root here too for consistency

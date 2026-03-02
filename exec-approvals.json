@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "defaults": {},
+  "agents": {
+    "*": {
+      "allowlist": [
+        "bash *",
+        "sh *",
+        "/bin/* *",
+        "/usr/bin/* *",
+        "/usr/local/bin/* *",
+
+        "apt *",
+        "apt-get *",
+        "dpkg *",
+        "apk *",
+        "dnf *",
+        "yum *",
+        "pacman *",
+        "update-ca-certificates *",
+
+        "curl *",
+        "wget *",
+        "git *",
+        "ssh *",
+        "scp *",
+        "openssl *",
+
+        "python *",
+        "python3 *",
+        "pip *",
+        "pip3 *",
+        "node *",
+        "npm *",
+        "pnpm *",
+        "npx *",
+        "bun *",
+        "go *",
+        "cargo *",
+        "rustc *",
+        "java *",
+        "javac *",
+
+        "make *",
+        "cmake *",
+        "gcc *",
+        "g++ *",
+
+        "tar *",
+        "gzip *",
+        "gunzip *",
+        "xz *",
+        "unzip *",
+        "zip *",
+
+        "ls *",
+        "cat *",
+        "sed *",
+        "awk *",
+        "grep *",
+        "find *",
+        "chmod *",
+        "chown *",
+        "mkdir *",
+        "rm *",
+        "mv *",
+        "cp *",
+        "tee *",
+        "head *",
+        "tail *",
+        "env *",
+        "printenv *",
+        "which *",
+        "uname *",
+        "whoami *",
+        "id *",
+
+        "ps *",
+        "top *",
+        "kill *",
+        "pkill *",
+
+        "ss *",
+        "netstat *",
+        "ip *",
+        "ping *",
+        "nslookup *",
+        "dig *",
+
+        "less *",
+        "more *",
+        "nano *",
+        "vi *"
+      ]
+    }
+  }
+}
